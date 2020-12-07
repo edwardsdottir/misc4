@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style-form.css">
+        <title>Book Flight</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class='menuhead'>
+            <nav id="main-menu">
+                <ul class="nav-bar">
+                    <li class="nav-button-home"><a href="./index.html">Main Page</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <h1>Book Your Flight</h1>
+        
+	<div style="display:none;">
+	<form action="bookflight.php" method="post">
+		<input type="text" name="from"></input>
+		<input type="text" name="to"></input>
+	</form>
+	</div>
+
+        <form method="post" action="#">
+            <fieldset>
+                <legend>Flight Information:</legend>
+                
+                <label for="origincity">Origin</label>
+                <input id="origincity" name="origincity" type="text" placeholder="City of Origin" required autofocus>
+
+
+                <label for="destinationcity">Destination</label>
+                <input id="destionationcity" name="destinationcity" type="text" placeholder="City of Destination" required>
+
+            </fieldset>
+
+            <fieldset>
+                <button type="submit">Check Aircraft Location</button>
+            </fieldset>
+            
+	</form>
+    </body>
+</html>
+
