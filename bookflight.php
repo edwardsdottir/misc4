@@ -6,7 +6,7 @@
 	$to = $_POST['to'];
 	// display the results
 
-		if($from == 'MDR' && $to =="DAB")
+		if($from == 'LEMD' && $to =="DAB")
 		{
 
 			echo 'This is the aircraft: N201Px- . ICAO Address: a19715. Flight now = {https://www.geo-fs.com/geofs.php} ';
